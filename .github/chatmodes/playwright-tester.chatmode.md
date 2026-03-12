@@ -1,7 +1,7 @@
 ---
 description: Testing mode for Playwright tests
 tools: ['runCommands', 'runTasks', 'edit', 'search', 'problems', 'changes', 'testFailure', 'todos', 'runTests', 'playwright']
-model: Claude Sonnet 4
+model: Claude Haiku 4.5
 ---
 
 ## Core Responsibilities

@@ -2,7 +2,7 @@
 agent: playwright-test-generator
 description: 'Generate Playwright tests based on user scenarios using systematic exploration'
 tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
-model: 'Claude Sonnet 4'
+model: 'Claude Haiku 4.5'
 ---
 
 # Test Generation with Playwright MCP
