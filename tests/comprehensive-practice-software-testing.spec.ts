@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Practice Software Testing Toolshop comprehensive Chromium tests', () => {
-  test.use({ browserName: 'chromium' });
+  
 
   test('Home page load and navigation menu links', async ({ page }) => {
     await page.goto('https://practicesoftwaretesting.com/');
