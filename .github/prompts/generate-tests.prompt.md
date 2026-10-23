@@ -1,7 +1,7 @@
 ---
 agent: playwright-test-generator
 description: 'Generate Playwright tests based on user scenarios using systematic exploration'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
+tools: ['changes', 'search/codebase', 'edit/editFiles', 'web/fetch', 'findTestFiles', 'openSimpleBrowser', 'read/problems', 'vscodeTasks/problems', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'execute/createAndRunTask', 'execute/runTask', 'read/getTaskOutput', 'vscodeTasks/createAndRunTask', 'vscodeTasks/getTaskOutput', 'vscodeTasks/runTask', 'search', 'searchResults', 'read/terminalLastCommand', 'read/terminalSelection', 'execute/testFailure', 'vscodeGeneral/testFailure', 'playwright/*']
 model: 'Claude Haiku 4.5'
 ---
 
